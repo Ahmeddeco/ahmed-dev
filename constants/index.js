@@ -63,7 +63,7 @@ export const socials = [
   },
   {
     id: 2,
-    link: 'https://www.instagram.com/decodesigndecodesign//',
+    link: 'https://www.instagram.com/decodesigndecodesign/',
     title: 'instagram',
     icon: <RiInstagramLine />
   },
@@ -111,19 +111,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/thumb1.avif',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/thumb2.avif',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/thumb3.avif',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb4.avif',
         },
       ],
     },
@@ -131,19 +131,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb4.avif',
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/thumb1.avif',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/thumb2.avif',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/thumb3.avif',
         },
       ],
     },
