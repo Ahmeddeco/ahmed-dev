@@ -3,14 +3,7 @@ import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 import { FreeMode, Pagination } from 'swiper'
-import {
-	RxCrop,
-	RxDesktop,
-	RxPencil2,
-	RxReader,
-	RxRocket,
-	RxArrowTopRight,
-} from 'react-icons/rx'
+import { RxArrowTopRight } from 'react-icons/rx'
 import { serviceData } from '../constants'
 
 const ServiceSlider = () => {
@@ -42,11 +35,13 @@ const ServiceSlider = () => {
 							{/* title & desc*/}
 							<div className='mb-8'>
 								<div className='mb-2 text-lg '>{item.title}</div>
-								<p className='max-w-[350px] leading-normal'>{item.description}</p>
+								<p className='max-w-[350px] leading-normal'>
+									{item.description}
+								</p>
 							</div>
 							{/* arrow */}
 							<div className='text-3xl'>
-								<RxArrowTopRight className='group-hover:rotate-45 group-hover:text-accent transition-all duration-300'/>
+								<RxArrowTopRight className='group-hover:rotate-45 group-hover:text-accent transition-all duration-300' />
 							</div>
 						</div>
 					</SwiperSlide>
